@@ -1,0 +1,50 @@
+#How to create Virtual env
+*******************************************
+python -m venv projectname  # module
+*******************************************
+
+#How to activate venv
+cd projectname
+
+>>.\Script\activate
+# how to deactivate venv
+>>deactivate
+
+
+#how to install package/library
+pip install packagename==version
+
+#how to uninstall package/library
+
+pip uninstall packagename==version
+
+#How to install requirements.txt
+
+pip install -r path(requirements.txt)
+
+
+pip freeze>>requirements.txt
+
+
+
+
+import test as t #a
+
+from test import add
+
+from test import *
+
+from test import add,var,Show
+
+
+
+
+#import py_file_processing as fp
+#from py_file_processing import File_Processing
+#from py_file_processing import *
+#from py_file_processing import File_Processing as f
+
+
+
+
+from packagename.modulename  import function,variable
